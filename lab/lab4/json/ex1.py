@@ -17,5 +17,5 @@ for i in interfaces:
     descr = att.get('descr', '')
     speed = att.get('speed', 'inherit')
     mtu = att.get('mtu', '')
-    
+     
     print("{:<50} {:<20} {:<8} {:<6}".format(dn, descr, speed, mtu))
