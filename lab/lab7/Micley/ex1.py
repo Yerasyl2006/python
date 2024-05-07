@@ -5,7 +5,7 @@ pygame.init()
 
 clock = pygame.time.Clock()
 
-screen = pygame.display.set_mode((1400, 950))
+screen = pygame.display.set_mode((1400, 1050))
 pygame.display.set_caption("Clock")
 
 mick = pygame.transform.scale(pygame.image.load("mainclock.png"), (1400, 1050))
